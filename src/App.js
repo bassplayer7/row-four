@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Board from "./Game/Board";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <h4>Row Four</h4>
 
-        <p>Build your Connect Four board here.</p>
+        <Board/>
       </header>
     </div>
   );

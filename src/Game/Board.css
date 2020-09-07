@@ -1,0 +1,6 @@
+.Board {
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(var(--x, 8), calc(50px + 1vw));
+    grid-template-rows: repeat(var(--y, 8), calc(50px + 1vw));
+}
